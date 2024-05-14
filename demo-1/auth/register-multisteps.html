@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html lang="en" class="light-style   layout-menu-fixed     customizer-hide" dir="ltr" data-theme="theme-default" data-assets-path="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/assets/" data-base-url="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1" data-framework="laravel" data-template="blank-menu-theme-default-light" data-style="light">
+
+
+<!-- Mirrored from demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/auth/register-multisteps by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 May 2024 09:27:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+  <title>Multi Steps Sign-up - Pages |
+    Materio -
+    Bootstrap 5 HTML + Laravel Admin Template</title>
+  <meta name="description" content="Most Powerful &amp; Comprehensive Bootstrap 5 + Laravel HTML Admin Dashboard Template built for developers!" />
+  <meta name="keywords" content="dashboard, material, material design, bootstrap 5 dashboard, bootstrap 5 design, bootstrap 5">
+  <!-- laravel CRUD token -->
+  <meta name="csrf-token" content="NEJEEA0mIinyFxhpvfwnbcGFoWeOJJViiigLACb5">
+  <!-- Canonical SEO -->
+  <link rel="canonical" href="https://themeselection.com/item/materio-bootstrap-laravel-admin-template/">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/assets/img/favicon/favicon.ico" />
+
+
+  <!-- Include Styles -->
+  <!-- $isFront is used to append the front layout styles only on the front layout otherwise the variable will be blank -->
+  <!-- BEGIN: Theme CSS-->
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;ampdisplay=swap" rel="stylesheet">
+
+<link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/remixicon-CB5Upr-_.css" /><link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/flag-icons-Bor6250r.css" /><link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/node-waves-D5r9FyLK.css" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/remixicon-CB5Upr-_.css" class="" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/flag-icons-Bor6250r.css" class="" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/node-waves-D5r9FyLK.css" class="" /><!-- Core CSS -->
+<link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/core-BdqwDRjO.css" /><link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/theme-default-fL703prY.css" /><link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/demo-Z-YEgnIY.css" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/core-BdqwDRjO.css" class="template-customizer-core-css" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/theme-default-fL703prY.css" class="template-customizer-theme-css" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/demo-Z-YEgnIY.css" class="" />
+<!-- Vendor Styles -->
+<link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/perfect-scrollbar-CTjXBMlg.css" /><link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/typeahead-rBaq-1fs.css" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/perfect-scrollbar-CTjXBMlg.css" class="" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/typeahead-rBaq-1fs.css" class="" /><link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/bs-stepper-pfNhtc-M.css" /><link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/bootstrap-select-C4xb41vg.css" /><link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/select2-ClQQumpp.css" /><link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/form-validation-Z40eMZE8.css" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/bs-stepper-pfNhtc-M.css" class="" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/bootstrap-select-C4xb41vg.css" class="" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/select2-ClQQumpp.css" class="" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/form-validation-Z40eMZE8.css" class="" />
+<!-- Page Styles -->
+<link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/page-auth-DHusFg9z.css" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/page-auth-DHusFg9z.css" class="" />
+  <!-- Include Scripts for customizer, helper, analytics, config -->
+  <!-- $isFront is used to append the front layout scriptsIncludes only on the front layout otherwise the variable will be blank -->
+  <!-- laravel style -->
+<link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/helpers-B9_VIWCr.js" /><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/helpers-B9_VIWCr.js"></script><!-- beautify ignore:start -->
+  <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+  <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
+  <link rel="preload" as="style" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/template-customizer-BTiIn6t0.css" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/template-customizer-pfWEYAMA.js" /><link rel="stylesheet" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/template-customizer-BTiIn6t0.css" /><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/template-customizer-pfWEYAMA.js"></script>
+  <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+  <link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/config-BSYyexv8.js" /><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/config-BSYyexv8.js"></script>
+<script type="module">
+  window.templateCustomizer = new TemplateCustomizer({
+    cssPath: '',
+    themesPath: '',
+    defaultStyle: "light",
+    defaultShowDropdownOnHover: "1", // true/false (for horizontal layout only)
+    displayCustomizer: "1",
+    lang: 'en',
+    pathResolver: function(path) {
+      var resolvedPaths = {
+        // Core stylesheets
+                  'core.scss': 'https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/core-BdqwDRjO.css',
+          'core-dark.scss': 'https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/core-dark-DlFO-GcK.css',
+        
+        // Themes
+                  'theme-default.scss': 'https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/theme-default-fL703prY.css',
+          'theme-default-dark.scss': 'https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/theme-default-dark-6ufYpaZF.css',
+                  'theme-bordered.scss': 'https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/theme-bordered-mukBFQsu.css',
+          'theme-bordered-dark.scss': 'https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/theme-bordered-dark-BxW4RxPF.css',
+                  'theme-semi-dark.scss': 'https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/theme-semi-dark-V_cttLte.css',
+          'theme-semi-dark-dark.scss': 'https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/theme-semi-dark-dark-C6jQhYtB.css',
+              }
+      return resolvedPaths[path] || path;
+    },
+    'controls': ["rtl","style","headerType","contentLayout","layoutCollapsed","layoutNavbarOptions","themes"],
+  });
+</script>
+</head>
+
+<body>
+
+  <!-- Layout Content -->
+  
+<!-- Content -->
+<div class="authentication-wrapper authentication-cover">
+  <!-- Logo -->
+  <a href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1" class="auth-cover-brand d-flex align-items-center gap-3">
+    <span class="app-brand-logo demo"><span style="color:#9055FD;">
+  <svg width="30" height="20" viewBox="0 0 250 196" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3002 1.25469L56.655 28.6432C59.0349 30.1128 60.4839 32.711 60.4839 35.5089V160.63C60.4839 163.468 58.9941 166.097 56.5603 167.553L12.2055 194.107C8.3836 196.395 3.43136 195.15 1.14435 191.327C0.395485 190.075 0 188.643 0 187.184V8.12039C0 3.66447 3.61061 0.0522461 8.06452 0.0522461C9.56056 0.0522461 11.0271 0.468577 12.3002 1.25469Z" fill="currentColor" />
+    <path opacity="0.077704" fill-rule="evenodd" clip-rule="evenodd" d="M0 65.2656L60.4839 99.9629V133.979L0 65.2656Z" fill="black" />
+    <path opacity="0.077704" fill-rule="evenodd" clip-rule="evenodd" d="M0 65.2656L60.4839 99.0795V119.859L0 65.2656Z" fill="black" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M237.71 1.22393L193.355 28.5207C190.97 29.9889 189.516 32.5905 189.516 35.3927V160.631C189.516 163.469 191.006 166.098 193.44 167.555L237.794 194.108C241.616 196.396 246.569 195.151 248.856 191.328C249.605 190.076 250 188.644 250 187.185V8.09597C250 3.64006 246.389 0.027832 241.935 0.027832C240.444 0.027832 238.981 0.441882 237.71 1.22393Z" fill="currentColor" />
+    <path opacity="0.077704" fill-rule="evenodd" clip-rule="evenodd" d="M250 65.2656L189.516 99.8897V135.006L250 65.2656Z" fill="black" />
+    <path opacity="0.077704" fill-rule="evenodd" clip-rule="evenodd" d="M250 65.2656L189.516 99.0497V120.886L250 65.2656Z" fill="black" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2787 1.18923L125 70.3075V136.87L0 65.2465V8.06814C0 3.61223 3.61061 0 8.06452 0C9.552 0 11.0105 0.411583 12.2787 1.18923Z" fill="currentColor" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2787 1.18923L125 70.3075V136.87L0 65.2465V8.06814C0 3.61223 3.61061 0 8.06452 0C9.552 0 11.0105 0.411583 12.2787 1.18923Z" fill="white" fill-opacity="0.15" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M237.721 1.18923L125 70.3075V136.87L250 65.2465V8.06814C250 3.61223 246.389 0 241.935 0C240.448 0 238.99 0.411583 237.721 1.18923Z" fill="currentColor" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M237.721 1.18923L125 70.3075V136.87L250 65.2465V8.06814C250 3.61223 246.389 0 241.935 0C240.448 0 238.99 0.411583 237.721 1.18923Z" fill="white" fill-opacity="0.3" />
+  </svg>
+</span>
+</span>
+    <span class="app-brand-text demo text-heading fw-semibold">Materio</span>
+  </a>
+  <!-- /Logo -->
+  <div class="authentication-inner row m-0">
+
+    <!-- Left Text -->
+    <div class="d-none d-lg-flex col-lg-3 align-items-center justify-content-end p-5 pe-0">
+      <img alt="register-multi-steps-illustration" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/assets/img/illustrations/registration-multistep-illustration.png" class="scaleX-n1-rtl w-px-300 h-auto mh-100 img-fluid">
+    </div>
+    <!-- /Left Text -->
+
+    <!--  Multi Steps Registration -->
+    <div class="d-flex col-lg-9 align-items-center justify-content-center authentication-bg p-5">
+      <div class="w-px-700 mt-12 mt-lg-0">
+        <div id="multiStepsValidation" class="bs-stepper wizard-numbered shadow-none">
+          <div class="bs-stepper-header border-bottom-0 mb-2">
+            <div class="step" data-target="#accountDetailsValidation">
+              <button type="button" class="step-trigger">
+                <span class="bs-stepper-circle"><i class="ri-check-line"></i></span>
+                <span class="bs-stepper-label">
+                  <span class="bs-stepper-number">01</span>
+                  <span class="d-flex flex-column ms-1">
+                    <span class="bs-stepper-title">Account</span>
+                    <span class="bs-stepper-subtitle">Account Details</span>
+                  </span>
+                </span>
+              </button>
+            </div>
+            <div class="line"></div>
+            <div class="step" data-target="#personalInfoValidation">
+              <button type="button" class="step-trigger">
+                <span class="bs-stepper-circle"><i class="ri-check-line"></i></span>
+                <span class="bs-stepper-label">
+                  <span class="bs-stepper-number">02</span>
+                  <span class="d-flex flex-column ms-1">
+                    <span class="bs-stepper-title">Personal</span>
+                    <span class="bs-stepper-subtitle">Enter Information</span>
+                  </span>
+                </span>
+              </button>
+            </div>
+            <div class="line"></div>
+            <div class="step" data-target="#billingLinksValidation">
+              <button type="button" class="step-trigger">
+                <span class="bs-stepper-circle"><i class="ri-check-line"></i></span>
+                <span class="bs-stepper-label">
+                  <span class="bs-stepper-number">03</span>
+                  <span class="d-flex flex-column ms-1">
+                    <span class="bs-stepper-title">Billing</span>
+                    <span class="bs-stepper-subtitle">Payment Details</span>
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="bs-stepper-content">
+            <form id="multiStepsForm" onSubmit="return false">
+              <!-- Account Details -->
+              <div id="accountDetailsValidation" class="content">
+                <div class="content-header mb-5">
+                  <h4 class="mb-0">Account Information</h4>
+                  <span>Enter Your Account Details</span>
+                </div>
+                <div class="row gx-5">
+                  <div class="col-sm-6 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="text" name="multiStepsUsername" id="multiStepsUsername" class="form-control" placeholder="johndoe" />
+                      <label for="multiStepsUsername">Username</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6  mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="email" name="multiStepsEmail" id="multiStepsEmail" class="form-control" placeholder="john.doe@email.com" aria-label="john.doe" />
+                      <label for="multiStepsEmail">Email</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 form-password-toggle mb-5">
+                    <div class="input-group input-group-merge">
+                      <div class="form-floating form-floating-outline">
+                        <input type="password" id="multiStepsPass" name="multiStepsPass" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="multiStepsPass2" />
+                        <label for="multiStepsPass">Password</label>
+                      </div>
+                      <span class="input-group-text cursor-pointer" id="multiStepsPass2"><i class="ri-eye-off-line ri-20px"></i></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 form-password-toggle mb-5">
+                    <div class="input-group input-group-merge">
+                      <div class="form-floating form-floating-outline">
+                        <input type="password" id="multiStepsConfirmPass" name="multiStepsConfirmPass" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="multiStepsConfirmPass2" />
+                        <label for="multiStepsConfirmPass">Confirm Password</label>
+                      </div>
+                      <span class="input-group-text cursor-pointer" id="multiStepsConfirmPass2"><i class="ri-eye-off-line ri-20px"></i></span>
+                    </div>
+                  </div>
+                  <div class="col-md-12 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="text" name="multiStepsURL" id="multiStepsURL" class="form-control" placeholder="johndoe/profile" aria-label="johndoe" />
+                      <label for="multiStepsURL">Profile Link</label>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-between">
+                    <button class="btn btn-outline-secondary btn-prev" disabled> <i class="ri-arrow-left-line ri-16px me-sm-1_5 me-0"></i>
+                      <span class="align-middle d-sm-inline-block d-none">Previous</span>
+                    </button>
+                    <button class="btn btn-primary btn-next"> <span class="align-middle d-sm-inline-block d-none me-sm-1_5 me-0">Next</span> <i class="ri-arrow-right-line ri-16px"></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- Personal Info -->
+              <div id="personalInfoValidation" class="content">
+                <div class="content-header mb-5">
+                  <h4 class="mb-0">Personal Information</h4>
+                  <span>Enter Your Personal Information</span>
+                </div>
+                <div class="row gx-5">
+                  <div class="col-sm-6 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="text" id="multiStepsFirstName" name="multiStepsFirstName" class="form-control" placeholder="John" />
+                      <label for="multiStepsFirstName">First Name</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="text" id="multiStepsLastName" name="multiStepsLastName" class="form-control" placeholder="Doe" />
+                      <label for="multiStepsLastName">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 mb-5">
+                    <div class="input-group input-group-merge">
+                      <span class="input-group-text">US (+1)</span>
+                      <div class="form-floating form-floating-outline">
+                        <input type="text" id="multiStepsMobile" name="multiStepsMobile" class="form-control multi-steps-mobile" placeholder="202 555 0111" />
+                        <label for="multiStepsMobile">Mobile</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="text" id="multiStepsPincode" name="multiStepsPincode" class="form-control multi-steps-pincode" placeholder="Postal Code" maxlength="6" />
+                      <label for="multiStepsPincode">Pincode</label>
+                    </div>
+                  </div>
+                  <div class="col-md-12 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="text" id="multiStepsAddress" name="multiStepsAddress" class="form-control" placeholder="Address" />
+                      <label for="multiStepsAddress">Address</label>
+                    </div>
+                  </div>
+                  <div class="col-md-12 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="text" id="multiStepsArea" name="multiStepsArea" class="form-control" placeholder="Area/Landmark" />
+                      <label for="multiStepsArea">Landmark</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="text" id="multiStepsCity" class="form-control" placeholder="Jackson" />
+                      <label for="multiStepsCity">City</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <select id="multiStepsState" class="select2 form-select" data-allow-clear="true">
+                        <option value="">Select</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="DC">District Of Columbia</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
+                      </select>
+                      <label for="multiStepsState">State</label>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-between">
+                    <button class="btn btn-outline-secondary btn-prev"> <i class="ri-arrow-left-line ri-16px me-sm-1_5 me-0"></i>
+                      <span class="align-middle d-sm-inline-block d-none">Previous</span>
+                    </button>
+                    <button class="btn btn-primary btn-next"> <span class="align-middle d-sm-inline-block d-none me-sm-1_5 me-0">Next</span> <i class="ri-arrow-right-line ri-16px"></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- Billing Links -->
+              <div id="billingLinksValidation" class="content">
+                <div class="content-header mb-5">
+                  <h4 class="mb-0">Select Plan</h4>
+                  <span>Select plan as per your requirement</span>
+                </div>
+                <!-- Custom plan options -->
+                <div class="row gap-md-0 gap-4 mb-12 gx-5">
+                  <div class="col-md">
+                    <div class="form-check custom-option custom-option-icon">
+                      <label class="form-check-label custom-option-content" for="basicOption">
+                        <span class="custom-option-body">
+                          <span class="fs-6 d-block fw-medium text-heading mb-2">Basic</span>
+                          <small>A simple start for start ups & Students</small>
+                          <span class="d-flex justify-content-center py-2">
+                            <sup class="text-primary fs-6 lh-1 mt-3">$</sup>
+                            <span class="h4 mb-0 text-primary">0</span>
+                            <sub class="lh-1 fs-sm mt-auto mb-3 text-muted">/month</sub>
+                          </span>
+                        </span>
+                        <input name="customRadioIcon" class="form-check-input" type="radio" value="" id="basicOption" />
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="form-check custom-option custom-option-icon">
+                      <label class="form-check-label custom-option-content" for="standardOption">
+                        <span class="custom-option-body">
+                          <span class="fs-6 d-block fw-medium text-heading mb-2">Standard</span>
+                          <small>For small to medium businesses</small>
+                          <span class="d-flex justify-content-center py-2">
+                            <sup class="text-primary fs-6 lh-1 mt-3">$</sup>
+                            <span class="h4 mb-0 text-primary">99</span>
+                            <sub class="lh-1 fs-sm mt-auto mb-3 text-muted">/month</sub>
+                          </span>
+                        </span>
+                        <input name="customRadioIcon" class="form-check-input" type="radio" value="" id="standardOption" checked />
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="form-check custom-option custom-option-icon">
+                      <label class="form-check-label custom-option-content" for="enterpriseOption">
+                        <span class="custom-option-body">
+                          <span class="fs-6 d-block fw-medium text-heading mb-2">Enterprise</span>
+                          <small>Solution for enterprise & organizations</small>
+                          <span class="d-flex justify-content-center py-2">
+                            <sup class="text-primary fs-6 lh-1 mt-3">$</sup>
+                            <span class="h4 mb-0 text-primary">499</span>
+                            <sub class="lh-1 fs-sm mt-auto mb-3 text-muted">/month</sub>
+                          </span>
+                        </span>
+                        <input name="customRadioIcon" class="form-check-input" type="radio" value="" id="enterpriseOption" />
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!--/ Custom plan options -->
+                <div class="content-header mb-5 mt-5">
+                  <h4 class="mb-0">Payment Information</h4>
+                  <span>Enter your card information</span>
+                </div>
+                <!-- Credit Card Details -->
+                <div class="row gx-5">
+                  <div class="col-md-12 mb-5">
+                    <div class="input-group input-group-merge">
+                      <div class="form-floating form-floating-outline">
+                        <input id="multiStepsCard" class="form-control multi-steps-card" name="multiStepsCard" type="text" placeholder="1356 3215 6548 7898" aria-describedby="multiStepsCardImg" />
+                        <label for="multiStepsCard">Card Number</label>
+                      </div>
+                      <span class="input-group-text cursor-pointer" id="multiStepsCardImg"><span class="card-type"></span></span>
+                    </div>
+                  </div>
+                  <div class="col-md-5 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="text" id="multiStepsName" class="form-control" name="multiStepsName" placeholder="John Doe" />
+                      <label for="multiStepsName">Name On Card</label>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 mb-5">
+                    <div class="form-floating form-floating-outline">
+                      <input type="text" id="multiStepsExDate" class="form-control multi-steps-exp-date" name="multiStepsExDate" placeholder="MM/YY" />
+                      <label for="multiStepsExDate">Expiry Date</label>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 mb-5">
+                    <div class="input-group input-group-merge">
+                      <div class="form-floating form-floating-outline">
+                        <input type="text" id="multiStepsCvv" class="form-control multi-steps-cvv" name="multiStepsCvv" maxlength="3" placeholder="654" />
+                        <label for="multiStepsCvv">CVV Code</label>
+                      </div>
+                      <span class="input-group-text cursor-pointer" id="multiStepsCvvHelp"><i class="ri-question-line" data-bs-toggle="tooltip" data-bs-placement="top" title="Card Verification Value"></i></span>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-between">
+                    <button class="btn btn-outline-secondary btn-prev"> <i class="ri-arrow-left-line ri-16px me-sm-1_5 me-0"></i>
+                      <span class="align-middle d-sm-inline-block d-none">Previous</span>
+                    </button>
+                    <button type="submit" class="btn btn-success btn-next btn-submit">Submit <i class="ri-check-line ri-16px ms-1_5"></i></button>
+                  </div>
+                </div>
+                <!--/ Credit Card Details -->
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / Multi Steps Registration -->
+  </div>
+</div>
+
+<script type="module">
+  // Check selected custom option
+  window.Helpers.initCustomOptionCheck();
+</script>
+<!--/ Content -->
+
+  <!--/ Layout Content -->
+
+  
+  <div class="buy-now">
+    <a href="https://themeselection.com/item/materio-bootstrap-laravel-admin-template/" target="_blank" class="btn btn-danger btn-buy-now">Buy Now</a>
+  </div>
+  
+
+  <!-- Include Scripts -->
+  <!-- $isFront is used to append the front layout scripts only on the front layout otherwise the variable will be blank -->
+  <!-- BEGIN: Vendor JS-->
+
+<link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/jquery-CbdDuLi-.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/jquery-CED9k22g.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/_commonjsHelpers-BosuxZz1.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/jquery-Czc5UB_B.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/popper-DNZnuk_L.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/bootstrap-B-W6M1Y3.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/node-waves-XDuO7R8f.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/perfect-scrollbar-CLUWhEAQ.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/hammer-36U3igM9.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/typeahead-BKwBoP4T.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/menu-CY9lYqyY.js" /><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/jquery-CbdDuLi-.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/popper-DNZnuk_L.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/bootstrap-B-W6M1Y3.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/node-waves-XDuO7R8f.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/perfect-scrollbar-CLUWhEAQ.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/hammer-36U3igM9.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/typeahead-BKwBoP4T.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/menu-CY9lYqyY.js"></script>
+<link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/cleave-C6wy96Im.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/_commonjsHelpers-BosuxZz1.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/cleave-phone-DRZWSJE_.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/bs-stepper-Dvr80vBu.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/select2-Cg3gXliv.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/jquery-Czc5UB_B.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/popular-BiiL9sLA.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/bootstrap5-COKFI6zn.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/index-CrI7K4FP.js" /><link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/auto-focus-DSygTglc.js" /><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/cleave-C6wy96Im.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/cleave-phone-DRZWSJE_.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/bs-stepper-Dvr80vBu.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/select2-Cg3gXliv.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/popular-BiiL9sLA.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/bootstrap5-COKFI6zn.js"></script><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/auto-focus-DSygTglc.js"></script><!-- END: Page Vendor JS-->
+<!-- BEGIN: Theme JS-->
+<link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/main-DRGn0ueN.js" /><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/main-DRGn0ueN.js"></script>
+<!-- END: Theme JS-->
+<!-- Pricing Modal JS-->
+<!-- END: Pricing Modal JS-->
+<!-- BEGIN: Page JS-->
+<link rel="modulepreload" href="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/pages-auth-multisteps-BUkFMsQ3.js" /><script type="module" src="https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo/build/assets/pages-auth-multisteps-BUkFMsQ3.js"></script><!-- END: Page JS-->
+
+</body>
+
+
+<!-- Mirrored from demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/auth/register-multisteps by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 May 2024 09:27:03 GMT -->
+</html>
